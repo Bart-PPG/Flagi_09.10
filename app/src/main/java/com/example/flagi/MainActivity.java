@@ -28,7 +28,7 @@ private int pomylki = 0;
         view.setVisibility(View.INVISIBLE);
         licznik++;
         if(licznik == 4){
-            textView.setText("To jest flaga polski \n Pomyłki = " + pomylki);
+            textView.setText(R.string.podsumowanie);
         }
     }
 }

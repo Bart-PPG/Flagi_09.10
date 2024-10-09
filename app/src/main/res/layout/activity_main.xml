@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#802B1C"
+    android:background="@color/kolorGlowny"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textSize="@dimen/rozmiarCzcionki"
         android:layout_margin="16dp"
-        android:text="Króre kolory nie wystepuja w fladze polski ?"
+        android:text="@string/pytanie"
         android:textAlignment="center"
         />
 
@@ -28,8 +28,8 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFEB3B"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/yellow"
+            android:layout_margin="@dimen/marginesPrzycisku"
             android:onClick="DobraOdpowiedz"
             />
 
@@ -37,17 +37,17 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="@color/White2"
             android:onClick="ZlaOdpowiedz"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/marginesPrzycisku"
             />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF3B3B"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/red"
+            android:layout_margin="@dimen/marginesPrzycisku"
             android:onClick="ZlaOdpowiedz"
             />
     </LinearLayout>
@@ -61,8 +61,8 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#000000"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/n_word"
+            android:layout_margin="@dimen/marginesPrzycisku"
             android:onClick="DobraOdpowiedz"
 />
 
@@ -70,16 +70,16 @@
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#3F51B5"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/blue"
+            android:layout_margin="@dimen/marginesPrzycisku"
             android:onClick="DobraOdpowiedz"
 />
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF00FB"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/fusia"
+            android:layout_margin="@dimen/marginesPrzycisku"
             android:onClick="DobraOdpowiedz"
 
 />
